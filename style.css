@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: gray;
+  position: sticky;
+  top: 0;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 70px;
+}
+
+h1 {
+  color: darkcyan; 
+  font-size: 26px;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: darkcyan;
+  font-weight: 500;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.busca input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: gray;
+  padding: 5px;
+}
+
+.busca button {
+  background: none;
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+
+
+
+.main{
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.caixa{
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+}
+
+.livro{
+  width: 120px;
+}
+
+.layout {
+  display: flex;
+}
+
+.nav{
+  background-color: white;
+  display: flex;
+  width: 250px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: white;
+  color: gray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
